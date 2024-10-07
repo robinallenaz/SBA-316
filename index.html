@@ -10,12 +10,12 @@
   <body>
     <h1>To-Do List</h1>
     <!--Form with validation-->
-    <form>
+    <form id="taskForm">
       <input
         type="text"
         id="taskInput"
         placeholder="Add a new task!"
-        required
+        required minlength="3"
       />
       <button type="submit">Add Task</button>
     </form>
